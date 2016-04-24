@@ -12,6 +12,9 @@
 	[http://spacenx.pw/2015/08/20/Linux-Nginx-WSGI.html](http://spacenx.pw/2015/08/20/Linux-Nginx-WSGI.html)
 
 ##使用说明：
+	-注册用户
+		-先注册再登录， 不支持anonymous
+		
 	-登录
   		-用户登录后使用
 
