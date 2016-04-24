@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Information" />
+	<meta name="description" content="control-page" />
+	{% block title%}
+		<title>Control page</title>
+	{% endblock %}
+
+	<link rel="stylesheet" type="text/css" href="/static/css/main.css" />
+	<script type="text/javascript" src="/static/js/jquery.min.js" ></script>
+	<script type="text/javascript" src="/static/js/jquery.js" ></script>
+
+	{% block reference %}
+	{% endblock %}
+</head>
+
+<body style="background:#EEEEEF">
+	{% block body %}
+
+		{% block header %}
+
+		{% endblock %}
+
+		{% block content %}
+
+		{% endblock %}
+
+	{% endblock %}
+
+	{% block foot%}
+	{% endblock %}
+</body>
+
+<footer id="footer" style="margin-top:50px;background-color:grey;height:100px;padding-top:35px">
+  <div class="container">
+    <div class="container-inner">
+      <!-- <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a> -->
+      <div class="credit">
+        <p>Copyright &copy; 2016 SJTU. All rights reserved.</p>
+        <!-- <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a> Redesigned by <a href="http://barretlee.com/" target="_blank">barretlee</a></p> -->
+      </div>
+    </div>
+  </div>
+</footer>
